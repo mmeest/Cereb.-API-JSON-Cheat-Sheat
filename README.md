@@ -3,7 +3,93 @@ API And JSON Cheat Sheat
 
 
 ## Contents
+- [Data formats](#data_formats)
 - [Software](#software)
+
+## Data formats
+
+<p><img src="swagger.png" width="64px"></p>
+
+### JSON
+
+https://www.json.org/json-en.html
+https://www.w3schools.com/js/js_json_intro.asp
+
+JSON, which stands for "JavaScript Object Notation," is a lightweight data interchange format. It is easy for humans to read and write and easy for machines to parse and generate. JSON is often used to transmit data between a server and a web application, as well as between different parts of an application.
+
+JSON data is represented as a collection of key-value pairs, where keys are strings enclosed in double quotation marks, and values can be strings, numbers, booleans, objects, arrays, or null. Here's a simple example of JSON data:
+
+```
+{
+  "name": "John Doe",
+  "age": 30,
+  "isStudent": false,
+  "courses": ["Math", "Science", "History"],
+  "address": {
+    "street": "123 Main St",
+    "city": "Anytown",
+    "state": "CA"
+  }
+}
+```
+In this example, we have an object with several key-value pairs. Some values are strings, some are numbers, and there's even a nested object and an array.
+
+JSON is widely used in web development and data exchange because of its simplicity, human-readability, and support in many programming languages. It's commonly used for configuring applications, exchanging data between a server and a client (e.g., in RESTful APIs), and storing structured data.
+
+1. Objects: Enclosed in curly braces {} and contain a collection of key-value pairs. Keys are strings, followed by a colon :, and values can be strings, numbers, booleans, objects, arrays, or null.
+```
+{
+  "key1": "value1",
+  "key2": 42,
+  "key3": true,
+  "key4": null
+}
+```
+2. Arrays: Enclosed in square brackets [] and contain an ordered list of values. These values can be of any data type, including other arrays or objects.
+```
+["apple", "banana", "cherry"]
+```
+3. Strings: Enclosed in double quotation marks " ". They can contain any Unicode characters.
+```
+"Hello, World!"
+```
+4. Numbers: Represented as integers or floating-point numbers.
+```
+42
+3.14159
+```
+5. Booleans: Represented as true or false.
+```
+true
+false
+```
+6. Null: Represented as null, indicating the absence of a value.
+```
+null
+```
+
+### XML
+
+XML, which stands for "Extensible Markup Language," is a markup language designed for storing and transporting data. It's similar to HTML (Hypertext Markup Language) in that it uses tags to structure and describe information, but XML is more general and extensible, making it suitable for a wide range of applications beyond web pages.
+
+Key features of XML include:
+
+**1. Self-Descriptive:** XML documents are self-descriptive, meaning they contain both data and information about the structure of the data. Each element in an XML document is enclosed in tags that define its meaning. For example:
+
+```
+<person>
+    <name>John Doe</name>
+    <age>30</age>
+    <city>New York</city>
+</person>
+```
+**2. Hierarchical:** XML documents are organized hierarchically, with elements containing other elements. This hierarchical structure is useful for representing complex data relationships.
+
+**3. Extensible:** XML allows you to define your own custom tags and document structure. This extensibility makes it versatile for a wide range of applications.
+
+**4. Platform-Independent:** XML is platform-independent, which means it can be used on various operating systems and programming languages.
+
+**5. Human-Readable:** XML documents are human-readable, which makes them easy to create and understand, both by humans and machines.
 
 ## Software
 
@@ -25,7 +111,7 @@ Swagger Editor is an open-source tool used for designing, building, and document
 
 Overall, Swagger Editor simplifies the process of designing and documenting RESTful APIs, making it easier for developers to create consistent and well-documented APIs that can be easily consumed by others. It's particularly useful in projects where collaboration between frontend and backend teams is essential or when you need to expose your services to external developers or third parties.
 
-<p><img src="postman.png" width="64px"></p>
+<p><img src="post.png" width="64px"></p>
 
 ### Postman
 
