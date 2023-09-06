@@ -8,7 +8,7 @@ API And JSON Cheat Sheat
 
 ## Data formats
 
-<p><img src="swagger.png" width="64px"></p>
+<p><img src="json.png" width="64px"></p>
 
 ### JSON
 
@@ -67,6 +67,8 @@ false
 ```
 null
 ```
+
+
 
 ### XML
 
