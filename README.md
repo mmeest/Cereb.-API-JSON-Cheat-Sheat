@@ -1,4 +1,4 @@
-<p align="center"><img src="api.png" width="220px"></p>
+<p align="center"><img src="api.png" width="380px"></p>
 
 # Cereb.-API-JSON-Cheat-Sheat
 API And JSON Cheat Sheat
