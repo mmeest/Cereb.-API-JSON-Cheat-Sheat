@@ -3,8 +3,41 @@ API And JSON Cheat Sheat
 
 
 ## Contents
+- [REST API](#rest_api)
 - [Data formats](#data_formats)
 - [Software](#software)
+
+<p><img src="rest.png" width="64px"></p>
+
+## REST API
+
+https://restfulapi.net/
+
+A REST API, or Representational State Transfer Application Programming Interface, is a set of rules and conventions for building and interacting with web services. It is based on the principles of REST, which is an architectural style for designing networked applications. REST APIs are designed to enable communication and data exchange between different software systems over the internet.
+
+Some key characteristics and concepts associated with REST APIs:
+
+**1. Statelessness:** A fundamental principle of REST is that each request from a client to a server must contain all the information needed to understand and process the request. The server should not store any client-specific data between requests. This statelessness simplifies the design and scalability of APIs.
+
+**2. Resources:** In a RESTful API, resources are the fundamental abstractions or entities that the API deals with. Resources are typically identified by URIs (Uniform Resource Identifiers) and can represent real-world objects or digital entities like users, products, or documents.
+
+**3. HTTP Methods:** REST APIs use standard HTTP methods to perform operations on resources. The most common HTTP methods used in REST are:
+        * **GET:** Retrieve data from the server.
+        * **POST:** Create a new resource on the server.
+        * **PUT:** Update an existing resource on the server (or create it if it doesn't exist).
+        * **DELETE:** Remove a resource from the server.
+
+  HTTP Status Codes: REST APIs use HTTP status codes to indicate the result of a request, such as "200 OK" for a successful response or "404 Not Found" for a resource that doesn't exist.
+
+  Uniform Interface: REST APIs follow a uniform and consistent interface, making it easier for clients to understand and interact with different APIs. This includes the use of standard HTTP methods, URIs, and response formats (usually JSON or XML).
+
+  Stateless Communication: Communication between the client and server in a REST API is stateless, meaning that each request/response cycle is independent, and the server does not store any client-specific information between requests.
+
+  Representation: Resources can have multiple representations, such as JSON, XML, or HTML, depending on the client's preferences. Clients can specify their desired representation using HTTP headers.
+
+  Layered System: REST allows for the use of intermediary servers (proxies, caches, load balancers) between the client and server, providing scalability and improved performance.
+
+REST APIs are widely used for building web services and are a common choice for exposing data and functionality over the internet. They provide a straightforward and standardized way for different software applications to communicate and interact with each other.
 
 ## Data formats
 
@@ -68,9 +101,12 @@ false
 null
 ```
 
-
+<p><img src="xml.png" width="64px"></p>
 
 ### XML
+
+https://www.w3.org/XML/
+https://www.w3schools.com/xml/xml_whatis.asp
 
 XML, which stands for "Extensible Markup Language," is a markup language designed for storing and transporting data. It's similar to HTML (Hypertext Markup Language) in that it uses tags to structure and describe information, but XML is more general and extensible, making it suitable for a wide range of applications beyond web pages.
 
