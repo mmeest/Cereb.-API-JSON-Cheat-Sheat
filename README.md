@@ -8,6 +8,7 @@ API And JSON Cheat Sheat
 ## Software
 
 <p><img src="swagger.png" width="64px"></p>
+
 ### Swagger Editor
 Swagger Editor is an open-source tool used for designing, building, and documenting RESTful APIs (Application Programming Interfaces). It is a part of the larger Swagger ecosystem, which includes tools like Swagger UI and Swagger Codegen. Swagger Editor provides a user-friendly web-based interface that allows developers and API designers to:
 
