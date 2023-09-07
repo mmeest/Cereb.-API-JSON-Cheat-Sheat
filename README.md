@@ -10,7 +10,7 @@ API And JSON Cheat Sheat
 - [Response codes](#response-codes)
 - [Software](#software)
 
----
+<hr>
 
 <p><img src="rest.png" width="64px"></p>
 
@@ -46,7 +46,7 @@ REST APIs are widely used for building web services and are a common choice for 
 
 ## Data formats
 
----
+<hr>
 
 <p><img src="json.png" width="64px"></p>
 
@@ -108,7 +108,7 @@ false
 null
 ```
 
----
+<hr>
 
 <p><img src="xml.png" width="64px"></p>
 
@@ -163,7 +163,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 | 503 | Service unavailable |
 | 504 | (Gateway Timeout): The server did not receive a timely response from an upstream server. |
 
----
+<hr>
 
 ## Software
 
