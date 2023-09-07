@@ -10,6 +10,7 @@ API And JSON Cheat Sheat
 - [Response codes](#response-codes)
 - [Software](#software)
 
+
 <hr>
 
 <p><img src="rest.png" width="64px"></p>
@@ -44,9 +45,10 @@ Some key characteristics and concepts associated with REST APIs:
 
 REST APIs are widely used for building web services and are a common choice for exposing data and functionality over the internet. They provide a straightforward and standardized way for different software applications to communicate and interact with each other.
 
-## Data formats
 
 <hr>
+
+## Data formats
 
 <p><img src="json.png" width="64px"></p>
 
@@ -108,6 +110,7 @@ false
 null
 ```
 
+
 <hr>
 
 <p><img src="xml.png" width="64px"></p>
@@ -138,6 +141,9 @@ Key features of XML include:
 
 **5. Human-Readable:** XML documents are human-readable, which makes them easy to create and understand, both by humans and machines.
 
+
+<hr>
+
 ## Response Codes
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
@@ -162,6 +168,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 | 502 | (Bad Gateway): The server received an invalid response from an upstream server. |
 | 503 | Service unavailable |
 | 504 | (Gateway Timeout): The server did not receive a timely response from an upstream server. |
+
 
 <hr>
 
