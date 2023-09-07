@@ -7,6 +7,7 @@ API And JSON Cheat Sheat
 ## Contents
 - [REST API](#rest_api)
 - [Data formats](#data_formats)
+- [Response codes](#response_codes)
 - [Software](#software)
 
 <p><img src="rest.png" width="64px"></p>
@@ -130,6 +131,31 @@ Key features of XML include:
 **4. Platform-Independent:** XML is platform-independent, which means it can be used on various operating systems and programming languages.
 
 **5. Human-Readable:** XML documents are human-readable, which makes them easy to create and understand, both by humans and machines.
+
+## Response Codes
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+| Code | Description |
+|-|-|
+| 100 | (Continue): The server has received the initial part of the request and will continue processing it. |
+| 101 | (Switching Protocols): The server is switching to a different protocol as requested by the client. |
+| 200 | The request was successful, and the server is returning the requested data. |
+| 201 | Success. Created one object of type lead. (POST) |
+| 204 | Success. Lead data updated. (PATCH/PUT/DELETE) The request was successful, but there is no data to return (often used for DELETE requests). |
+| 301 | (Moved Permanently): The requested resource has been permanently moved to a new URL. |
+| 302 | (Found): The requested resource is temporarily located at a different URL. |
+| 304 | (Not Modified): The client's cached version of the resource is still valid. |
+| 400 | Data retrieval failure |
+| 401 | Permission denided |
+| 403 | (Forbidden): The client does not have permission to access the requested resource. |
+| 404 | Not found |
+| 405 | Wrong method |
+| 429 | Too many requests |
+| 500 | Internal bug |
+| 502 | (Bad Gateway): The server received an invalid response from an upstream server. |
+| 503 | Service unavailable |
+| 504 | (Gateway Timeout): The server did not receive a timely response from an upstream server. |
 
 ## Software
 
