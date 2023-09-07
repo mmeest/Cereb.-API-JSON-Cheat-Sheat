@@ -5,9 +5,9 @@ API And JSON Cheat Sheat
 
 
 ## Contents
-- [REST API](#rest_api)
-- [Data formats](#data_formats)
-- [Response codes](#response_codes)
+- [REST API](#rest-api)
+- [Data formats](#data-formats)
+- [Response codes](#response-codes)
 - [Software](#software)
 
 <p><img src="rest.png" width="64px"></p>
