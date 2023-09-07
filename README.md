@@ -76,6 +76,22 @@ JSON data is represented as a collection of key-value pairs, where keys are stri
 ```
 In this example, we have an object with several key-value pairs. Some values are strings, some are numbers, and there's even a nested object and an array.
 
+Example 2:
+```
+{
+  "location":{
+    "name":"London",
+    "region":"City of London, Greater London",
+    "country":"United Kingdom",
+    "localtime":"2023-04-02 8:47"
+  },
+  "current":{
+    "last_updated":"2023-04-02 08:30",
+    "temp_c":5.0
+  }
+}    
+```
+
 JSON is widely used in web development and data exchange because of its simplicity, human-readability, and support in many programming languages. It's commonly used for configuring applications, exchanging data between a server and a client (e.g., in RESTful APIs), and storing structured data.
 
 1. Objects: Enclosed in curly braces {} and contain a collection of key-value pairs. Keys are strings, followed by a colon :, and values can be strings, numbers, booleans, objects, arrays, or null.
